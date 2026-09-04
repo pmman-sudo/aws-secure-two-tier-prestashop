@@ -457,7 +457,7 @@ After the Apache and database configuration issues were resolved, the PrestaShop
 The final storefront was successfully served from the EC2 web/application tier.
 
 <p align="center">
-  <img src="images/07-prestashop-store-front.png" width="900" alt="PrestaShop storefront">
+  <img src="images/07-prestashop-storefront.png" width="900" alt="PrestaShop storefront">
 </p>
 
 <p align="center">
