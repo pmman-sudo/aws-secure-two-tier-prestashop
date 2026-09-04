@@ -141,7 +141,7 @@ An **Ubuntu 24.04 LTS** Amazon EC2 instance was provisioned as the public-facing
 ### EC2 Instance
 
 <p align="center">
-  <img src="images/ec2-instance.png" width="900" alt="Amazon EC2 instance">
+  <img src="images/01-ec2-instance.png" width="900" alt="Amazon EC2 instance">
 </p>
 
 <p align="center">
@@ -153,7 +153,7 @@ An **Ubuntu 24.04 LTS** Amazon EC2 instance was provisioned as the public-facing
 The EC2 web tier was associated with Security Groups controlling administrative access, public web traffic, and database connectivity.
 
 <p align="center">
-  <img src="images/ec2-instance-security-groups.png" width="900" alt="EC2 instance Security Groups">
+  <img src="images/02-ec2-instance-security-groups.png" width="900" alt="EC2 instance Security Groups">
 </p>
 
 <p align="center">
@@ -201,7 +201,7 @@ sudo systemctl status apache2
 ```
 
 <p align="center">
-  <img src="images/apache-service-running.png" width="900" alt="Apache service running">
+  <img src="images/03-apache-service-running.png" width="900" alt="Apache service running">
 </p>
 
 <p align="center">
@@ -228,7 +228,7 @@ A separate **Amazon RDS for MySQL** instance was created for the backend databas
 ### RDS Instance
 
 <p align="center">
-  <img src="images/rds-instance1.png" width="900" alt="Amazon RDS MySQL instance">
+  <img src="images/04-rds-instance1.png" width="900" alt="Amazon RDS MySQL instance">
 </p>
 
 <p align="center">
@@ -238,7 +238,7 @@ A separate **Amazon RDS for MySQL** instance was created for the backend databas
 ### RDS Connectivity and Security
 
 <p align="center">
-  <img src="images/rds-instance2.png" width="900" alt="Amazon RDS connectivity and security configuration">
+  <img src="images/05-rds-instance2.png" width="900" alt="Amazon RDS connectivity and security configuration">
 </p>
 
 <p align="center">
@@ -445,7 +445,7 @@ This approach helped identify whether a failure belonged to:
 After the Apache and database configuration issues were resolved, the PrestaShop installation completed successfully.
 
 <p align="center">
-  <img src="images/prestashop-installation-complete.png" width="900" alt="PrestaShop installation complete">
+  <img src="images/06-prestashop-installation-complete.png" width="900" alt="PrestaShop installation complete">
 </p>
 
 <p align="center">
@@ -457,7 +457,7 @@ After the Apache and database configuration issues were resolved, the PrestaShop
 The final storefront was successfully served from the EC2 web/application tier.
 
 <p align="center">
-  <img src="images/prestashop-store-front.png" width="900" alt="PrestaShop storefront">
+  <img src="images/07-prestashop-store-front.png" width="900" alt="PrestaShop storefront">
 </p>
 
 <p align="center">
